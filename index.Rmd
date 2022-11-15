@@ -1,0 +1,84 @@
+---
+title: "Accessibility practices for Deaf and Hard-of-Hearing people"
+author: "Andrea Sánchez-Tapia"
+subtitle: "The Turing Way BookDash Nov 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+options(servr.daemon = TRUE)#para que no bloquee la sesión
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+  base_color = "#035AA6",
+  colors = c(
+    red = "#A70000",
+    purple = "#88398a",
+    orange = "#ff8811",
+    green = "#136f63",
+    blue = "#4B4FFF"
+  ),
+  header_font_google = google_font("Roboto Condensed"),
+  text_font_google = google_font("Roboto Condensed", "300", "300i"),
+  code_font_google = google_font("Fira Mono"), text_font_size = "28px"
+)
+#xaringanExtra::use_logo(image_url = "url('figs/LatinR_LOGOS-21.png')")
+```
+
+# References
+
++ Huyck, J.J., Anbuhl, K.L., Buran, B.N., et al., 2021. Supporting Equity and Inclusion of Deaf and Hard-of-Hearing Individuals in Professional Organizations. Frontiers in Education 6, 417. https://doi.org/10.3389/feduc.2021.755457
+
++ _Very localized_ experience in Brazil, where LIBRAS (Lingua brasileira de sinais) is the official sign language
+
+---
+# Three types of access
+
++ __Physical access:__ whether an individual can enter, move around, and function, interact with materials in a space. Technical aspects. Microphones, captioning, sign language interpretation. Rooms that are compatible with hearing aids.
+
+--
+
++ __Social access:__ attending and being able to interact in the _social aspects_ of the community.  
+<!--but also being the only one in the room!-->
+
+--
+
++ __Financial access:__ Health care and assistive technology, hiring and paying for the services too. Individualized solutions put a burden on individuals and this is unbalanced towards low-income families. 
+
+---
+## A five pillar model
+
+1. Foster mentoring programs 
+
+2. Proactively giving equal access
+
+3. Easing financial burdens
+
+4. Recruiting for leadership positions
+
+5. Establishing a culture of equity and inclusion
+
+
+---
+## Some considerations 
+
++ Captioning can work for non-Native English speakers as well, people with technical issues and lifts a cognitive burden on the audience
+
+<!-- CC is absolutely widespread today --> 
+
++ Sign languages vary from country to country, even with regional and cultural variations, but in some countries they are widely used and prefered over captions
+
+---
+class: center, middle, inverse
+
+# Thanks!
